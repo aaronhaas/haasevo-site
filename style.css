@@ -19,51 +19,60 @@ body {
 
 .hero {
   position: absolute;
-  top: 46%;
+  top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 
 .logo {
-  font-family: 'Nunito Sans', Arial, sans-serif;
-  font-size: clamp(6rem, 16vw, 14rem);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: clamp(6.5rem, 16vw, 14rem);
   font-weight: 900;
-  letter-spacing: -0.08em;
+  letter-spacing: -0.04em;
   line-height: 0.9;
   color: #f5f5f5;
 }
 
-.coming {
-  margin-top: 1.5rem;
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-size: 0.85rem;
-  font-weight: 500;
-  letter-spacing: 0.45rem;
+.coming soon {
+  margin-top: 1.35rem;
+  font-size: 1rem;
+  letter-spacing: 0.42rem;
   text-transform: lowercase;
-  color: #9d9d9d;
-  padding-left: 0.45rem;
+  color: #b7b7b7;
+  padding-left: 0.42rem;
+}
+
+.coming soon::before {
+  content: "";
+  display: block;
+  width: 20rem;
+  max-width: 70vw;
+  height: 1px;
+  background: #666;
+  margin: 0 auto 1.25rem auto;
+  opacity: 0.5;
 }
 
 .footer {
   position: absolute;
-  right: 3rem;
-  bottom: 2.5rem;
+  right: 4rem;
+  bottom: 3rem;
 }
 
 .footer-text {
-  font-size: 0.95rem;
-  color: #8f8f8f;
-  letter-spacing: 0.03rem;
+  font-size: 1.05rem;
+  color: #a5a5a5;
+  letter-spacing: 0.02rem;
 }
 
 .haas {
-  font-family: 'Cormorant Garamond', Georgia, serif;
-  font-size: 1.55rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
   font-weight: 600;
   color: #f5f5f5;
   position: relative;
-  top: 0.05rem;
+  top: 0.08rem;
 }
 
 @media (max-width: 600px) {
