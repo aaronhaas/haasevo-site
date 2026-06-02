@@ -39,7 +39,7 @@ body {
   width: min(38rem, 75vw);
   height: 2px;
   background: rgba(255,255,255,0.42);
-  margin: 2rem auto 1.7rem auto;
+  margin: 1.5rem auto 2.2rem auto;
 }
 
 .coming-soon {
