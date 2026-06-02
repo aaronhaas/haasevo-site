@@ -27,11 +27,11 @@ body {
 }
 
 .logo {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Archivo', sans-serif;
   font-size: clamp(8rem, 18vw, 15rem);
   font-weight: 900;
-  line-height: 0.78;
-  letter-spacing: -0.075em;
+  letter-spacing: -0.08em;
+  line-height: 0.82;
   color: #f5f5f5;
 }
 
