@@ -36,7 +36,7 @@ body {
 }
 
 .divider {
-  width: min(28.5rem, 56vw;
+  width: min(24rem, 52vw);
   height: 2px;
   background: rgba(255,255,255,0.42);
   margin: 1.5rem auto 2.2rem auto;
